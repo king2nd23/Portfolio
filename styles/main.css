@@ -116,7 +116,7 @@ body{
   background-color: #fff;
   -webkit-box-shadow: 4px 7px 22px 0px rgba(198,201,209,0.75);
   -moz-box-shadow: 4px 7px 22px 0px rgba(198,201,209,0.75);
-  box-shadow: 4px 7px 22px 0px rgba(198,201,209,0.75);
+  box-shadow: 4px 7px 22px 0px rgba(2);
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -135,18 +135,23 @@ body{
   display: inline-block;
   width: 58%;
   height: 100%;
-  margin-top: 5%;
-  color: #222629;
+  margin-top: 3%;
+  color: #525f7f;
 }
 .project-card .project-details h1{
-
+  margin-bottom: 6%;
+  font-weight: 300;
 }
 .project-card .project-details p{
-
+  padding-right: 10%;
+  margin-bottom: 6%;
+  line-height: 1.6;
+  letter-spacing: .3px;
 }
 .project-card .project-details .project-tech ul{
   list-style: none;
   padding: 0;
+  margin-bottom: 6%;
 }
 .project-card .project-details .project-tech ul li{
   display: inline-block;
@@ -162,8 +167,43 @@ body{
   list-style: none;
   padding: 0;
 }
-.project-card .project-details .project-links ul li{
+.project-card .project-details .project-links ul a:nth-child(1){
+  width: 20%;
+  height: auto;
+  padding: 10px;
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #86C232;
+  text-align: center;
+  vertical-align: center;
+  font-size: .85rem;
+  color: #fff;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(198,201,209,1);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(198,201,209,1);
+  box-shadow: 3px 3px 5px 0px rgba(198,201,209,1);
+}
+.project-card .project-details .project-links ul li i{
+  padding-left: 5px;
+}
+.project-card .project-details .project-links ul a:nth-child(2){
+  width: 20%;
+  height: auto;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: center;
+  font-size: .85rem;
+  color: #86C232;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(198,201,209,1);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(198,201,209,1);
+  box-shadow: 3px 3px 5px 0px rgba(198,201,209,1);
+}
+.project-card .project-details .project-links ul li:nth-child(2) i{
+  font-size: 20px;
 }

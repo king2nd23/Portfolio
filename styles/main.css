@@ -143,10 +143,13 @@ body{
   font-weight: 300;
 }
 .project-card .project-details p{
-  /* padding-right: 10%; */
+  padding-right: 10%;
   margin-bottom: 6%;
   line-height: 1.6;
   letter-spacing: .3px;
+}
+.project-card .project-details p span{
+  color: #86C232;
 }
 .project-card .project-details .project-tech ul{
   list-style: none;
@@ -206,4 +209,38 @@ body{
 }
 .project-card .project-details .project-links ul li:nth-child(2) i{
   font-size: 20px;
+}
+.contact-headline{
+  margin-top: 12%;
+  margin-bottom: 4%;
+  border-bottom: 1px solid #6B6E70;
+  }
+.contact-headline h3{
+  color: #6B6E70;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  }
+.contact-info ul{
+  padding: 0;
+  color: #6B6E70;
+  }
+.contact-info li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 3%;
+}
+.contact-info a{
+  color: #86C232;
+  border-left: 1px solid;
+  padding-left: 3%;
+}
+.copyrights{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 12%;
+  text-align: right;
+}
+.copyrights h6{
+  color: #6B6E70;
+  font-weight: lighter;
 }

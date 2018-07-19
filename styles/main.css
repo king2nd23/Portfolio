@@ -125,25 +125,25 @@ body{
 .project-card .project-photo{
   display: inline-block;
   width: 40%;
-  background-color: grey;
 }
 .project-card .project-photo img{
-  width: 20%;
+  width: 100%;
   margin: 0 auto;
 }
 .project-card .project-details{
   display: inline-block;
-  width: 58%;
+  width: 55%;
   height: 100%;
   margin-top: 3%;
   color: #525f7f;
+  float: right;
 }
 .project-card .project-details h1{
   margin-bottom: 6%;
   font-weight: 300;
 }
 .project-card .project-details p{
-  padding-right: 10%;
+  /* padding-right: 10%; */
   margin-bottom: 6%;
   line-height: 1.6;
   letter-spacing: .3px;

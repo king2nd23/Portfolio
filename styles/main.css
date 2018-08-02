@@ -10,6 +10,10 @@ body{
   padding: 0;
   background-color: #fafff8;
 }
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 .menu{
   position: relative;
   display: block;
@@ -166,6 +170,9 @@ body{
   font-size: .85rem;
 
 }
+.project-card .project-details .project-links{
+  width: 100%;
+}
 .project-card .project-details .project-links ul{
   list-style: none;
   padding: 0;
@@ -243,4 +250,52 @@ body{
 .copyrights h6{
   color: #6B6E70;
   font-weight: lighter;
+}
+
+/* /////////////////////media queries////////////////////// */
+
+
+@media (max-width: 915px) {
+  main-content{
+    margin: 0 ;
+    z-index: 1;
+  }
+.project-card{
+    display: flex;
+    height: 480px;
+    flex-direction: column;
+  }
+.project-card .project-details{
+  width: 100%;
+  text-align: center;
+}
+.project-card .project-details p{
+  display: none;
+}
+.project-card .project-details .project-tech{
+  display: none;
+}
+.project-card .project-details .project-links ul a:nth-child(1){
+  width: auto;
+}
+.project-card .project-details .project-links ul a:nth-child(2){
+  width: auto;
+}
+.project-card .project-photo{
+  z-index: 0;
+  width: 70%;
+  height: auto;
+  order: 2;
+  margin: 0 auto;
+  position: relative;
+  bottom: 80px;
+  }
+}
+@media (max-width: 480px){
+  .project-card{
+  height: 400px;
+  }
+  .project-card .project-photo{
+  bottom: 30px;
+  }
 }

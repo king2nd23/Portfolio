@@ -1,14 +1,13 @@
-html{
-  font-family:  'inter UI', sans-serif;
-}
-a{
-  text-decoration: none;
-  color: inherit;
-}
 body{
   margin: 0;
   padding: 0;
   background-color: #fafff8;
+  font-family:  'inter UI', sans-serif;
+}
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
 }
 @viewport {
   width: device-width ;
